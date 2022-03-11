@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Fashion Club </title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+  <!----  CSS ---->
+  <link rel="stylesheet" href="./css/style.css" type="text/css" media="all" />
+
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+  <!----  AOS ---->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Bootstrap icon core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+
+  <!-- Font Awesome icon core CSS -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- Animate CSS Cdn---->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md navbar-light " style="background-color: white">
+    <div class="container-fluid fw-bolder col-md-5">
+
+      <!--Fashion Logo-->
+      <a class="navbar-brand animate__animated animate__delay-1s animate__rubberBand
+    animate__repeat-2	2" href="./index.html">
+        <img src="./img/fc.png" alt="" class="img-fluid" width="115" height="90" />
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="animate__heartBeat animate__animated animate__delay-1s d-flex animate__infinite	infinite"><i
+            class="bi bi-bullseye fw-bolder h1"></i></span>
+      </button>
+    </div>
+
+
+    <!--Navbar Links-->
+    <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavAltMarkup">
+
+      <div class="navbar-nav px-1 fw-bold">
+
+        <div class="navbar-nav">
+
+          <div class="d-md-flex">
+            <a class="nav-link active d-flex" aria-current="page" href="#"> Take a Tour </a>
+            <a class="nav-link" href="#">Buy & Sell</a>
+            <a class="nav-link" href="#">Sponsor</a>
+            <a class="nav-link title-word-4" href="#">Fashion School</a>
+          </div>
+
+          <div class="">
+            <a class="btn border m-1" href="#">Log In</a>
+            <a class="btn btn-dark rounded text-light m-1" href="#" tabindex="-1" aria-disabled="true">Sign Up</a>
+
+          </div>
+
+        </div>
+        <form class="d-flex d-md-none d-sm-flex border border-dark">
+          <input class="form-control border-0" type="search" placeholder="Search Items" aria-label="Search">
+          <button class="btn bg-dark text-light" type="submit"><i class="bi bi-search"></i> </button>
+        </form>
+      </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="p-3 text-light" style="background-color: black">
+    <div class="container-fluid mt-2">
+      <div class="row">
+
+        <!--Hero Text-->
+        <div
+          class="col col-lg-5 col-md-6 animate__animated animate__rollIn animate__delay-1s d-flex align-items-center">
+          <div>
+            <h1 class="display-3 fw-bolder "> WELCOME TO <br /> FASHION CLUB </h1>
+            <p class="latest fs-5 mb-5"> Fashion Club is a platform were fashion lovers are able to join a club that
+              suits there type of fashion. Each fashion Club has its own unique styles, designs, textures, models, etc.
+              The fashion Club you choose today will determine the fashion styles you will design tomorrow.</p>
+            <a class="btn text-dark px-4 py-2 rounded-pill bg-white fw-bold" href="#" style="border-radius: 30%;"> Learn
+              More <span><i class="bi bi-arrow-right "></i></span></a>
+          </div>
+
+
+        </div>
+
+        <!--Hero Image-->
+        <div
+          class="col-lg-7 col-md-6 col-sm-12 d-flex mt-4 justify-content-center animate__animated animate__flash animate__delay-2s h-50 ">
+
+          <img src="./img/cmodel.jpg" alt="" class="img-fluid d-none d-md-block w-75 h-75" />
+          <img src="./img/beauty.jpg" alt="" class="img-fluid  d-md-none d-sm-block rounded-pill" />
+
+        </div>
+
+        <p class="play">Join a Fashion Club Today and be part of the team.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Club Carousel -->
+  <section>
+    <div class="container">
+      <div id="carouselPr" class="carousel slide mt-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselPr" data-bs-slide-to="0" class="active btn-club"
+            style="border-radius: 50%; width: 10px; height:10px" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" class="btn-club" data-bs-target="#carouselPr"
+            style="border-radius: 50%; width: 10px; height:10px" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+        </div>
+
+        <div class="carousel-inner h-50 ">
+
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="container-fluid">
+              <div class="row d-flex m-3" style="height: fit-content" ;>
+
+                <!--Fancy Carousel-->
+                <div class="col-12 col-md-4 col-lg-4 col-sm-12 text-light text-start position-relative">
+                  <div class="card bg-dark text-white border-0">
+                    <img src="./img/fancy.jpg" class="card-img d-none d-md-block" alt="...">
+                    <img src="./img/fancy2.jpg" class="card-img d-md-none d-sm-block" alt="...">
+                    <div class="card-img-overlay">
+                      <h1 class="fw-bolder bg-warning text-dark fs-2 rounded-pill"
+                        style="font-family: cursive; width: fit-content"> #Fancy </h1>
+                      <div class="d-flex justify-content-between">
+                        <a class="btn btn-light rounded-pill text-dark fw-bold bg-warning  btn-lg position-absolute bottom-0 end-0 m-1"
+                          href="#"> View Club</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!--Adorable Carousel-->
+                <div class="col-12 col-md-4 col-lg-4 col-sm-12 text-light text-start position-relative">
+                  <div class="card bg-dark text-white border-0">
+                    <img src="./img/adorable.jpg" class="card-img d-none d-md-block" alt="...">
+                    <img src="./img/adorable2.jpg" class="card-img d-md-none d-sm-block" alt="...">
+                    <div class="card-img-overlay">
+                      <h1 class="fw-bolder rounded-pill text-dark fs-3"
+                        style="font-family: cursive;background-color:#9BA5A7; width: fit-content"> #Adorable </h1>
+                      <div class="d-flex justify-content-between">
+                        <a class="btn btn-light rounded-pill text-dark fw-bolder btn-lg position-absolute bottom-0 end-0 m-1"
+                          style="background-color:#9BA5A7" href="#"> View Club</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <!--Stylish Carousel-->
+                <div class="col-12 col-md-4 col-lg-4 col-sm-12 text-light text-start position-relative">
+                  <div class="card bg-dark text-white border-0">
+                    <img src="./img/stylish.jpg" class="card-img d-none d-md-block" alt="...">
+                    <img src="./img/stylish2.jpg" class="card-img d-md-none d-sm-block" alt="...">
+                    <div class="card-img-overlay">
+                      <h1 class="fw-bolder bg-danger text-light fs-3 rounded-pill"
+                        style="font-family: cursive; width:fit-content"> #Stylish </h1>
+                      <div class="d-flex justify-content-between">
+                        <a class="btn btn-light rounded-pill text-light fw-bolder bg-danger btn-lg position-absolute bottom-0 end-0 m-1"
+                          href="#"> View Club</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="carousel-item" data-bs-interval="10000">
+            <div class="container-fluid">
+              <div class="row d-flex m-3" style="height: fit-content" ;>
+
+                <!-- Hipster Carousel-->
+                <div class="col-12 col-md-4 col-lg-4 col-sm-12 text-light text-start position-relative">
+                  <div class="card bg-dark text-white border-0">
+                    <img src="./img/hipster.jpg" class="card-img d-none d-md-block" alt="...">
+                    <img src="./img/hipster2.jpg" class="card-img d-md-none d-sm-block" alt="...">
+                    <div class="card-img-overlay">
+                      <h1 class="fw-bolder rounded-pill text-light fs-2"
+                        style="font-family: cursive;background-color: brown; width: fit-content"> #Hipster </h1>
+                      <div class="d-flex justify-content-between">
+                        <a class="btn btn-light rounded-pill text-light fw-bold btn-lg position-absolute bottom-0 end-0 m-1"
+                          style="background-color: brown" href="#">
+                          View Club</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- Iconic Carousel-->
+                <div class="col-12 col-md-4 col-lg-4 col-sm-12  text-start position-relative">
+                  <div class="card bg-dark text-white border-0">
+                    <img src="./img/iconic.jpg" class="card-img d-none d-md-block" alt="...">
+                    <img src="./img/iconic2.jpg" class="card-img d-md-none d-sm-block" alt="...">
+                    <div class="card-img-overlay">
+                      <h1 class="fw-bolder bg-primary text-light rounded-pill fs-3"
+                        style="font-family: cursive; width: fit-content"> #Iconic </h1>
+                      <div class="d-flex justify-content-between">
+                        <a class="btn btn-light rounded-pill text-light fw-bolder bg-primary btn-lg position-absolute bottom-0 end-0 m-1"
+                          href="#"> View Club</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <!--Nice Carousel-->
+                <div class="col-12 col-md-4 col-lg-4 col-sm-12 text-light text-start position-relative">
+                  <div class="card bg-dark text-white border-0">
+                    <img src="./img/nice.jpg" class="card-img d-none d-md-block" alt="...">
+                    <img src="./img/nice2.jpg" class="card-img d-md-none d-sm-block" alt="...">
+                    <div class="card-img-overlay">
+                      <h1 class="fw-bolder text-dark fs-3 bg-light rounded-pill"
+                        style="font-family: cursive; width: fit-content"> #Nice </h1>
+                      <div class="d-flex justify-content-between">
+                        <a class="btn btn-light rounded-pill text-dark fw-bolder bg-light btn-lg position-absolute bottom-0 end-0 m-1"
+                          href="#"> View Club</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Capture Moments-->
+  <section>
+    <div class="container-fluid">
+      <div class="col-12 text-md-center mt-5 text-center">
+        <div class="w-100">
+          <h1 class="animate-character dispay-4 fw-bolder"
+            style="font-size: 70px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+            CAPTURE EVERY MOMENT.</h1>
+          <p class=""> Photographers, models, artist, celebrities, media groups, etc., across the globe are now
+            interested in the Fashion Club movement. Snap Fashion is your ultimate shopping companion, letting you shop
+            your favorite brands just by taking a photo. Find the perfect item sorting by shape and colour from over
+            16,000 brands in an instant, including ASOS, Top shop and all your other high-street favorites.</p>
+          <a class="btn btn-transparent fw-bolder" href="#"> Learn More <span><i class="bi bi-arrow-right "></i></span>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- All About fashion -->
+  <section>
+    <div class="row my-1">
+      <div class="col-12 col-sm-12 col-md-6 justify-content-center" data-aos="flip-left" data-aos-duration="1000">
+        <img class="img-fluid" src="./img/beauty2.jpg" alt="" />
+      </div>
+
+
+      <div class="col-12 col-sm-12 col-md-6">
+        <h1 class="mt-5 text-center w-100"
+          style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> ALL ABOUT
+          FASHION CLUB </h2>
+          <div class="" style="background-color: pink;">
+            <img class="img-fluid w-75" src="./img/Ladies.jpg" alt="" />
+            <p class="p-2"> Fashion club was formed in 2022 by Chris Designs to create a community for
+              fashion stylists, hipsters, models, and people related to fashion. Fashion is a form of
+              self-expression and autonomy at a particular period and place and in a specific context, of clothing,
+              footwear, lifestyle, accessories, makeup, hairstyle, and body posture.</p>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- What Is Fashion -->
+  <section>
+    <div class="col-12 text-md-center align-content-lg-center bg-light d-none d-md-block">
+      <h2 class="title">
+        <span class="title-word title-word-1">FASHION</span>
+        <span class="title-word title-word-2">MAKES</span>
+        <span class="title-word title-word-3">ME</span>
+        <span class="title-word title-word-4">HAPPY</span>
+      </h2>
+      <p class="">
+        Fashion is a style or manner in which something is done. Fashion is also the make or form of anything; the
+        style, shape, appearance, or mode of structure; pattern, model; workmanship; execution. The Fashion designers
+        are the inventors, creators, innovators that make Global impact in the world of fashion. The term implies a
+        look defined by the
+        fashion industry as that which is trending. Everything that is considered fashion is available and popularized
+        by the fashion system (industry and media).</p>
+      <a class="btn btn-dark text-light fw-bolder text-center m-2" href="#"> More about Fashion <span><i
+            class="bi bi-arrow-right "></i></span></a>
+    </div>
+  </section>
+
+  <!-- Professional Modelling -->
+  <section>
+    <div class="container-fluid">
+      <div class="row d-flex  justify-content-center text-center align-items-center p-2 bg-dark text-light">
+
+        <div class="col-12 col-sm-12 col-md-6 animate__lightSpeedInLeft">
+          <h1 class="dispay-1 fw-bolder text-light" style="font-size: 30px;"> BECOME A <span
+              class="text-warning">PROFESSIONAL <br>
+              MODEL</span> TODAY </h1>
+          <p class="text-light">
+            Choices for work, gaming, 5G streaming and anything else. There’s <br /> over 24,000 phones and tablets that
+            run on Android. So no matter <br /> what you’re looking for, there’s something for you.</p>
+          <a class="btn btn-warning rounded-pill fw-bolder text-dark my-2" href="#"> Join Modelling <span><i
+                class="bi bi-arrow-right "></i></span></a>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6" data-aos="zoom-out-up" data-aos-duration="1000">
+          <img src="./img/models.jpg" class="w-75" alt="">
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Meet The Vendors-->
+  <section class="container-fluid g-4" style="background-image: url('./img/gold.jpg');">
+    <h2
+      class="text-center text-dark fw-bolder p-3 animate__animated animate__delay-1s animate__bounceIn animate__repeat-1	1"
+      style="font-family: cursive; font-size: 300%;"> MEET THE VENDORS </h2>
+    <div class="row border-0">
+      <div class="col">
+        <img src="./img/bou1.jpg" class="card-img" alt="...">
+        <div class="card-body">
+          <h1 class="card-title fw-bolder"> LuLus, Hong Kong</h1>
+          <p class="card-text fs-5 pb-3">Lulus for must-have dresses, tops, shoes and accessories. Curated collections,
+            exclusive styles and new items added daily. </p>
+          <a class="btn btn-transparent pt-4 fw-bolder" href="#"> Learn More <span><i
+                class="bi bi-arrow-right "></i></span></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img src="./img/bou3.jpg" class="card-img pb-3" alt="...">
+        <div class="card-body">
+          <h1 class="card-title fw-bolder dispay-1 pb-3"> County Ltd, Los Angeles </h1>
+          <p class="card-text fs-5 pb-3 "> Mens clothing and home wares shop in Silver Lake, CA. Composed of 2 in-house
+            brands; Lady White Co. and Counter Space with a mix of vintage furniture.
+          </p>
+          <a class="btn btn-transparent pt-4 fw-bolder" href="#"> Learn More<span><i
+                class="bi bi-arrow-right "></i></span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fashion School -->
+  <section>
+    <h1 class="hi mt-5 mx-auto d-none d-md-block">
+      <span>Ready To</span>
+      <div class="message">
+        <div class="word1">Learn</div>
+        <div class="word3">TEACH</div>
+      </div>
+    </h1>
+
+    <h1
+      class="display-3 text-center p-3 animate__animated animate__delay-1s animate__jackInTheBox animate__repeat-2	2 fw-bolder"
+      style=" background-color: yellow;"> JOIN THE FASHION SCHOOL </h1>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+  </section>
+
+
+  <!-- Fashion Carousel -->
+  <section>
+    <div class="container">
+      <div class="mx-auto text-center">
+        <img src="./img/sponsor.png" alt="" class="w-75">
+      </div>
+    </div>
+  </section>
+    
+
+
+  <!-- The Coming SOON Event -->
+  <section>
+
+    <div class="position-relative my-3 overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"
+      style="background-image: url('./img/bout.jpg'); background-size: cover;">
+      <div class="col-md-7 col-sm-9 p-lg-5 mx-auto my-5">
+        <div class="bg-light">
+          <h2 class="display-4 fw-bolder text-warning bg-dark rounded"> COMING SOON </h2>
+          <p class="lead fw-normal text-dark p-1"> <span class="fw-bold"> Get prepared!!! </span> <br>
+            The biggest fashion event in the world is about to hit the city of New York. All fashion models and upcoming
+            fashion stylists are going to showcase their fashion skills and capabilities and Mr/Miss Fashion will be
+            selected. </p>
+          <a class="btn btn-danger m-1" href="#">View Event</a>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FAQ-->
+  <section class="my-5">
+    <h1 class="display-5 fw-bolder text-center m-1"> FREQUENTLY ASKED QUESTIONS</h1>
+    <div class="box">
+      <!--- 1st Question-->
+      <details>
+        <summary> Where is the O fashion club? </summary>
+        <p class="fs-6"> The O Fashion club is a premium club for V.I.P members. <span>
+            <a href="" class="btn  text-success fw-bolder fs-6 p-0">Register </a>
+          </span> </p>
+      </details>
+
+      <!--- 2nd Question-->
+      <details>
+        <summary> Where do I buy Fashion Accessories? </summary>
+        <p class="fs-6"> You can shop for more fashion accessories by clicking on our <span>
+            <a href="" class="btn text-primary fw-bolder fs-6 p-0">Fashion Store</a>
+          </span> </p>
+      </details>
+
+      <!--- 3rd Question-->
+      <details>
+        <summary> How Do I become a Sponsor? </summary>
+        <p class="fs-6"> You become a sponsor by registering in our <span>
+            <a href="" class="btn text-danger fw-bolder fs-6 p-0">Sponsor board</a>
+          </span> </p>
+      </details>
+  </section>
+
+  <!-- Footer -->
+  <section class="text-light" style="background-color: black;">
+    <div class="container">
+      <div class="row p-2 d-flex align-items-center">
+        <div class="col-12 col-md-4 col-lg-4 text-center">
+
+          <span class="mx-2"> <i class="fab fa-twitter h3 text-info"></i></span>
+          <span class="mx-2" style="color:fuchsia;"> <i class="fab fa-instagram h3 "></i> </span>
+          <span class="mx-2"> <i class="fab fa-youtube h3 text-danger"></i></span>
+          <span class="mx-2"> <i class="fab fa-facebook-f h3 text-primary"></i> </span>
+
+
+          <h3 class="m-3 fw-bolder"> PRIVACY POLICY </h3>
+          <p> &copy; Fashion club has undergone the patent rule order of the international law enforcement agency. Any
+            action of imitation will incur drastic measures of suing and meddling with Chris Designs ownership right.
+
+        </div>
+        <div class="col-12 col-md-4 col-lg-4shadow-lg mx-auto text-center">
+          <img src="./img/playstore.png" class="img-fluid border border-2 border-light rounded-pill w-50" alt="">
+          <img src="./img/applestore.png" class="img-fluid border border-2 border-light rounded-pill my-2 w-50" alt="">
+        </div>
+
+        <div class="col-12 col-md-4  col-lg-4 d-none d-md-block">
+          <img src="./img/foot.jpg" class="img-fluid" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Latest compiled and minified JavaScript -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+
+
+  <!----  AOS JS ---->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  <!----  Script JS ---->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
