@@ -252,3 +252,32 @@ details {
   list-style-type: none; 
   outline:  none;
 }
+
+
+/* Countdown */
+
+ .countdown div {
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+  padding: 15px 0;
+  background: rgba(247, 3, 3, 0.894);
+  color: white;
+}
+ .countdown div h3 {
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+ .countdown div h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Change background for authentication pages */
+@media (max-width: 574px) {
+  .change{
+    background-color: black;
+    color: white;
+  }
+}
